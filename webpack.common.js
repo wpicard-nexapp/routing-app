@@ -10,15 +10,18 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.ts$/,
+        test: /\.tsx?$/,
         loader: 'ts-loader',
         exclude: nodeModulesPath,
+        options: {
+          configFile: 'tsconfig.json'
+        }
       }
     ]
   },
   
   resolve: {
-    extensions: ['.ts', '.js']
+    extensions: ['.ts', '.tsx', '.js']
   },
 
   plugins: [

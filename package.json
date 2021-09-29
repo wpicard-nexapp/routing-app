@@ -3,7 +3,13 @@
   "scripts": {
     "start": "webpack serve --config webpack.dev.js --hot"
   },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
   "devDependencies": {
+    "@types/react": "^17.0.24",
+    "@types/react-dom": "^17.0.9",
     "html-webpack-plugin": "^5.3.2",
     "ts-loader": "^9.2.5",
     "typescript": "^4.4.3",

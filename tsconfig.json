@@ -6,6 +6,7 @@
     "esModuleInterop": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
+    "jsx": "react-jsx",
 
     "outDir": "build",
   }
