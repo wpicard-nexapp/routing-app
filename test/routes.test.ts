@@ -11,7 +11,7 @@ describe('resolve', () => {
     expect(resolvedRoutes.node).toEqual('/' + singleRoute.node);
   });
 
-  test('When resolve a single route with a prefix, the return the same route with its prefix', () => {
+  test('When resolve a single route with a prefix, then return the same route with its prefix', () => {
     const somePrefix = 'foobar'
     const singleRoute = routes({
       node: 'root'
