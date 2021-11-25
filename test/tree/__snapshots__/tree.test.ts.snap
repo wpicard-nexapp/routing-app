@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tree map function When mapping, then deeply traverse every node of the tree 1`] = `
+Object {
+  "childs": Object {
+    "left": Object {
+      "childs": Object {
+        "left": Object {
+          "node": 2,
+        },
+        "rigth": Object {
+          "node": 3,
+        },
+      },
+      "node": 1,
+    },
+    "rigth": Object {
+      "childs": Object {
+        "left": Object {
+          "node": 5,
+        },
+        "rigth": Object {
+          "node": 6,
+        },
+      },
+      "node": 4,
+    },
+  },
+  "node": 0,
+}
+`;
