@@ -11,17 +11,6 @@ describe('resolve', () => {
     expect(resolvedRoutes.node).toEqual('/' + singleRoute.node);
   });
 
-  test('When resolve a single route with a prefix, then return the same route with its prefix', () => {
-    const somePrefix = 'foobar'
-    const singleRoute = routes({
-      node: 'root'
-    });
-
-    const resolvedRoutes = resolve(singleRoute, somePrefix);
-
-    expect(resolvedRoutes.node).toEqual(join(somePrefix, singleRoute.node));
-  });
-
   test('When resolve with multiple sub routes, then each sub route is prefixed by its parent route', () => {
     const root = routes({
       node: 'root',
