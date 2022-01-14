@@ -1,0 +1,107 @@
+{
+  "menu": {
+    "entrees": [
+      "Salade du Chef",
+      "Salade César",
+      "Soupe aux légumes du jour",
+      "Fondues parmesan maison",
+      "Bâtonnets de fromage",
+      "Oignons français",
+      "Nachos",
+      "Ailes de poulet",
+      "Bouchées mix"
+    ],
+    "plat-principal": {
+      "combos": [
+        "Fromage",
+        "Végétarianne",
+        "Pepperoni",
+        "Garnie",
+        "Côtes levées",
+        "Poulet BBQ",
+        "Suprêmes",
+        "Smoked meat",
+        "Spéciale Normandin"
+      ],
+      "pizza-gourmet": [
+        "Cinqphonie",
+        "Végétarienne Deluxe",
+        "Sicilienne",
+        "Saumon fumé"
+      ],
+      "pizza": [
+        "Garnie",
+        "Poulet BBQ",
+        "Spéciale Normandin",
+        "Végétarienne",
+        "Fromage",
+        "Suprême",
+        "Côte levées",
+        "Smoked meat",
+        "Pepperoni"
+      ],
+      "sandwichs": [
+        "Club sandwich au poulet",
+        "Club sandwich au smoked meat",
+        "Hot chicken",
+        "Wrap au poulet",
+        "Sandwich smoked meat",
+        "Poulet club",
+        "Boeuf Kansas"
+      ],
+      "pates": [
+        "Spaghetti à la viande",
+        "Spaghetti spécial Normandin",
+        "Lasagne à la viande",
+        "Lasagne suprême",
+        "Lasagne végétarienne"
+      ],
+      "burger": [
+        "Garni",
+        "Cheese burger",
+        "Gourmet",
+        "Piquant",
+        "Twister"
+      ]
+    },
+    "desserts": [
+      "Brownies",
+      "Gâteau au fromage",
+      "Tarte à la noix de coco",
+      "Gâteau mousse au chocolat",
+      "Gâteau au chocolat",
+      "Tarte au pommes",
+      "Tarte au sucre",
+      "Sundae"
+    ],
+    "breuvage": {
+      "non-alcholise": [
+        "Jus de légume",
+        "Jus de tomante",
+        "Café",
+        "Thé",
+        "Eau",
+        "Boisson gazeuse"
+      ],
+      "alcholisé": {
+        "biere": [
+          "Coors Light",
+          "Belgian Moon",
+          "Rickards red",
+          "Molson Export"
+        ],
+        "vin-rouge": [
+          "Maison",
+          "Cliff 79",
+          "Woodbridge"
+        ],
+        "vin-blanc": [
+          "Maison",
+          "Cliff 79",
+          "Woodbridge",
+          "Kim Crawford"
+        ]
+      }
+    }
+  }
+}
