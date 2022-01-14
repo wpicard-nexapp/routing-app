@@ -1,8 +1,7 @@
 import { Link } from 'react-router-dom';
 import { UnorderedList as List } from '../../../components/UnorderedList';
 import { useResolvedPaths } from '../../../hooks/useResolvedPaths';
-import { routes } from '../../../utils/routes';
-import { Leaf } from '../../../utils/tree';
+import { childify, routes } from '../../../utils/routes';
 
 const entrees = [
   'Salade du Chef',
@@ -16,20 +15,19 @@ const entrees = [
   'Bouchées mix',
 ] as const;
 
-type Entrees = Record<typeof entrees[number], Leaf<string>>;
-const childs = Object.fromEntries(entrees.map((entree, i) => [entree, { node: i.toString() }])) as Entrees;
+const childs = childify(entrees);
 
-export const ENTREE_ROUTE = routes({
+export const ENTREE_ROUTES = routes({
   node: 'entree',
   childs
 });
 
 export const Entree = () => {
-  const paths = useResolvedPaths(ENTREE_ROUTE);
+  const paths = useResolvedPaths(ENTREE_ROUTES);
 
   return (
     <div style={{ marginLeft: 25 }}>
-      <h2>Entrée</h2>
+      <h2>Entrées</h2>
       <List>
         {Object.entries(paths.childs).map(([entree, path]) => <Link key={path.node} to={path.node}>{entree}</Link>)}
       </List>
